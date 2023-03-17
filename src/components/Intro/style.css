@@ -1,0 +1,23 @@
+.intro_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.intro_head {
+    align-self: center;
+    margin-left: 100px;
+}
+
+.intro_header {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: left;
+    color: #1976d2;
+}
+
+.intro_img {
+    width: 500px;
+    border-radius: 10%;
+}

@@ -1,20 +1,20 @@
 import './App.css';
-import { Navbar } from './components/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
+import { Intro } from './components/Intro/Intro';
+import { Footer } from './components/Footer/Footer';
+import { Contact } from './components/Contact/Contact';
+import { Feature } from './components/Feature/Feature';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Intro />
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Feature />
       </header>
+      <Contact />
+      <Footer />
     </div>
   );
 }
