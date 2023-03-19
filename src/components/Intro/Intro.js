@@ -9,7 +9,7 @@ export const Intro = (props) => {
                 <div className='intro_header'>
                     <em>MUSICOHOLIC</em>
                 </div>
-                <p>A platform where you can enjoy listening music and sing along with the help of lyrics.</p>
+                <p>A platform where you can enjoy listening music and sing along with lyrics.</p>
             </div>
             <img className="intro_img" src={bg_img} alt="music image" />
         </div>
